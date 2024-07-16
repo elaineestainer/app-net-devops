@@ -26,4 +26,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: elaineestainer/app-net-devops:tagname, elaineestainer/app-net-devops:${{ github.run_number }}
+          tags: elaineestainer/app-net-devops:latest, elaineestainer/app-net-devops:${{ github.run_number }}
